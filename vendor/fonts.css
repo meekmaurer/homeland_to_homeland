@@ -1,4 +1,4 @@
 @font-face {
-  font-family: "Inter" Impact, Haettenschweiler, "Arial Narrow Bold";
-  src: url(./fonts/InterVariable.ttf);
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  src: url(../vendor/fonts/InterVariable.ttf);
 }
