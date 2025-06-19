@@ -1,0 +1,47 @@
+.intro {
+  display: contents;
+  width: 785px;
+  height: 490px;
+  margin: 0 148px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.intro__title {
+  margin: 92px 148px 0;
+  height: 116px;
+
+  max-width: 100%;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__quote {
+  margin-top: 92px;
+  margin-left: 148px;
+  width: 720px;
+  height: 102px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.intro__quote-sig {
+  text-align: end;
+  margin: 10px 0 0 0;
+  width: 720px;
+  height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.intro__history {
+  margin: 32px 0 0 148px;
+  width: 720px;
+  height: 156px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+}

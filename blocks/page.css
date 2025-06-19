@@ -3,3 +3,32 @@
   background-color: rgba(42, 44, 47, 1);
   min-height: 100vh;
 }
+
+.page__lead {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page__lead__title {
+  text-align: center;
+  font-family: "Inter" Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 96px;
+  margin: 90px 0 0 0;
+}
+
+.page__lead__title__discription {
+  margin: 32px 0 0 0;
+  text-align: center;
+  width: 720px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.page__lead__title__image {
+  margin: 64px 148px 0 148px;
+  width: 984px;
+}
