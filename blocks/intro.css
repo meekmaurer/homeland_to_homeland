@@ -18,8 +18,8 @@
 }
 
 .intro__quote {
-  margin-top: 92px;
-  margin-left: 148px;
+  margin: 92px 0 0 148px;
+
   width: 720px;
   height: 102px;
   font-weight: 400;

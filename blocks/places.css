@@ -1,0 +1,59 @@
+.places {
+  color: rgba(255, 255, 255, 1);
+}
+
+.places__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.02fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title info ."
+    "image info ."
+    "button . .";
+  width: 987px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.places__card__title {
+  height: 152px;
+  margin: 0;
+  grid-area: title;
+  width: 460px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+}
+
+.places__card__image {
+  grid-area: image;
+  width: 460px;
+  height: 460px;
+}
+
+.places__card__info {
+  padding-top: 91px;
+  grid-area: info;
+  width: 484px;
+}
+
+.places__card__author {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.places__card__author_title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(170, 170, 170, 1);
+}
+
+.palces__card__btn {
+  margin: 48px 0 0 148px;
+  grid-area: button;
+}
