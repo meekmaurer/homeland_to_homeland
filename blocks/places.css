@@ -34,7 +34,7 @@
 }
 
 .places__card__info {
-  padding-top: 91px;
+  margin: 199px 0 0 0;
   grid-area: info;
   width: 484px;
 }
@@ -54,6 +54,8 @@
 }
 
 .palces__card__btn {
+  width: 248px;
+  height: 48px;
   margin: 48px 0 0 148px;
   grid-area: button;
 }
