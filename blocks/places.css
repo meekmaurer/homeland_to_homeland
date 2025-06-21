@@ -14,12 +14,11 @@
     "button . .";
   width: 987px;
   margin: 0 auto;
-  gap: 40px;
 }
 
 .places__card__title {
   height: 152px;
-  margin: 0;
+  margin: 92px 0 0 0;
   grid-area: title;
   width: 460px;
   font-size: 72px;
@@ -28,6 +27,7 @@
 }
 
 .places__card__image {
+  margin: 48px 0 0 0;
   grid-area: image;
   width: 460px;
   height: 460px;
@@ -40,22 +40,51 @@
 }
 
 .places__card__author {
-  margin: 0;
+  margin: 0 0 0 40px;
+}
+
+.places__card__author__name {
+  margin: 8px 0 0 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
 }
 
-.places__card__author_title {
+.places__card__author__title {
+  color: rgba(170, 170, 170, 1);
+
+  margin: 0;
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
   color: rgba(170, 170, 170, 1);
 }
 
+.places__paragraph_1 {
+  margin: 48px 0 0 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+}
+
+.places__paragraph_2 {
+  margin: 25px 0 0 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+}
 .palces__card__btn {
+  padding: 0;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(2, 120, 254, 1);
   width: 248px;
   height: 48px;
-  margin: 48px 0 0 148px;
+  margin: 48px 0 0 0;
   grid-area: button;
 }
