@@ -9,9 +9,8 @@
 
 .intro__title {
   margin: 92px 148px 0;
-  height: 116px;
-
   max-width: 785px;
+  width: 100%;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;

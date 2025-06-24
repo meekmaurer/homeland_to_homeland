@@ -1,7 +1,6 @@
 .page {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: rgba(42, 44, 47, 1);
-  min-height: 100vh;
 }
 
 .page__lead {
@@ -22,7 +21,7 @@
 .page__lead__title__discription {
   margin: 32px 0 0 0;
   text-align: center;
-  width: 720px;
+  width: 100%;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -30,5 +29,6 @@
 
 .page__lead__title__image {
   margin: 64px 148px 0 148px;
-  width: 984px;
+  max-width: 984px;
+  width: 100%;
 }

@@ -1,14 +1,13 @@
 .photo__grid {
-  width: 1184px;
-  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, 284px);
-  justify-content: center;
+
   margin: 118px auto 0;
   gap: 16px 16px;
+  margin: 118px 48px;
 }
 
 .photo__grid__photo {
-  width: 284px;
-  height: 213px;
+  width: 100%;
 }
